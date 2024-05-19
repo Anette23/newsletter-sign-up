@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1,
+label,
+button,
+span {
+  font-weight: 700;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+input:focus {
+  outline: 1px solid hsl(234, 29%, 20%);
+}
+
+.button, input {
+  border-radius: 10px;
+
+}
+
+.button {
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  font-size: 0.875rem;
+}
+
+.button:hover {
+  background-image: linear-gradient(hsl(4, 100%, 67%), rgb(248, 147, 65));
+}
